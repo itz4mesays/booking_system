@@ -1,3 +1,7 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+app_item_add_brand:
+  path: /item/add-brand
+  controller: App\Controller\ItemController:add-brand
