@@ -2,19 +2,14 @@
 
 namespace App\Controller;
 
+use App\Entity\Item;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 class ItemController extends AbstractController
 {
-    /**
-     * @Route("/item/add-brand")
-     */
-    public function AddBrand(): Response
-    {
-        return $this->render('item/add-brand.html.twig');
-    }
+
 
     /**
      * @Route("/item/view-items")
